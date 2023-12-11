@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport">
+        <title>@samuelnatanael08-71231050-Personal Webpage</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body">
+        <header class="header">
+            <p>
+                WELCOME
+            </p>
+        </header>
+        <audio controls autoplay loop>
+            <source src="Undertale OST_ 023 - Shop.mp3" type="audio/mp3">
+        </audio>
+        <h1>
+            Data Diri saya
+        </h1>
+        <div class="frame">
+            <img src="Foto_saya.jpg" 
+            alt="saya" width="211">
+        </div>
+        <div class="frame">
+            <p>
+                Nama : Samuel Natanael
+            </p>
+            <p>
+                Akun Instagram : @samuelnatanael08
+            </p>
+            <p>
+                Kota : Palembang
+            </p>
+            <p>
+                Propinsi : SumSel
+            </p>
+            <p>
+                Negara : Indonesia
+            </p>
+        </div>
+        
+        <h2>
+            Skillset
+        </h2>
+        <ul>
+            <li>Tidur</li>
+            <li>Makan</li>
+            <li>Masak</li>
+        </ul>
+    </body>
+    <button id="tombolGantiWarna">tombolGantiWarna </button>
+    <script>
+        const bodyElement = document.body;
+
+        function gantiWarnaRandom() {
+            const warnaList = ["red", "green", "blue", "white"];
+            const randomIndex = Math.floor(Math.random() * warnaList.length);
+            const warnaRandom = warnaList[randomIndex];
+            bodyElement.style.backgroundColor = warnaRandom;
+        }
+
+        const tombolGantiWarna = document.getElementById("tombolGantiWarna");
+        tombolGantiWarna.addEventListener("click", gantiWarnaRandom);
+    </script>
+    <footer class="footer">
+        <p>
+            THANK YOU
+        </p>
+    </footer>
+</html>

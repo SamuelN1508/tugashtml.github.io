@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame {
+    background-color: black;
+    color: white;
+    border: 5px solid #333;
+    padding: 10px;
+    display: inline-block;
+}
+
+header {
+    background-color: green;
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: green;
+    color: black;
+}
